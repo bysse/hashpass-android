@@ -1,0 +1,15 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:key="autostart_service"
+        android:title="@string/pref_title_autostart_service"
+        android:summary="@string/pref_description_autostart_service"
+        android:defaultValue="true" />
+
+    <CheckBoxPreference
+        android:key="save_master_password"
+        android:title="@string/pref_title_save_master_password"
+        android:summary="@string/pref_description_save_master_password"
+        android:defaultValue="false" />
+
+</PreferenceScreen>

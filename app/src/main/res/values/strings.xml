@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HashPass</string>
+
+    <string name="title_activity_hash">HashPass</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="notification_title">HashPass</string>
+    <string name="notification_description">Touch to generate a password.</string>
+
+    <string name="password_label">Password</string>
+    <string name="salt_label">Domain</string>
+    <string name="generate_button">Calculate</string>
+    <string name="generated_password_label">Hash password</string>
+    <string name="copy">Copy to clipboard</string>
+
+    <string name="generating_hash_message">Calculating...</string>
+    <string name="generating_error_message">Error generating password</string>
+
+    <string name="pref_title_autostart_service">Start service automatically</string>
+    <string name="pref_description_autostart_service">When enabled the service will automatically start when the phone starts.</string>
+    <string name="pref_title_save_master_password">Store password</string>
+    <string name="pref_description_save_master_password">Store the password in Android preferences. It\'s recommended to not enable this setting.</string>
+
+</resources>
